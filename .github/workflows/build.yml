@@ -17,7 +17,7 @@ jobs:
 
       - name: Compile
         run: |
-          g++ main.cpp -o myapp
+          g++ mixancmd.cpp -o myapp
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
